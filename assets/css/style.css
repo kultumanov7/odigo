@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@500&display=swap');
 
+/* Page 1 */
 .page1 {
     background-image: url('/assets/img/page1_background.png');
     background-size: cover;
@@ -13,7 +14,8 @@ body {
 }
 
 section {
-    max-width: 1060px;
+    max-width: 1264px; 
+    /* 1060 was */
     margin: 0 auto;
     width: 100%;
 }
@@ -91,3 +93,134 @@ section {
     border: none
 }
 
+/* Page 2 */
+.page2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.header2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 563px;
+    padding-bottom: 46px;
+}
+
+.header2_left{
+    padding-left: 90px;
+}
+
+.title2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    color: #102746;
+    border-bottom: 3px solid #006DFE;
+}
+
+.header2_right {
+    padding-right: 88px;
+    align-items: center;
+}
+
+.view_all {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #006DFE;
+}
+
+.arrow_right {
+    padding-left: 26px;
+}
+
+.collage {}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.big_img {
+    height: 354px;
+    width: 619px;
+    border-radius: 0px;
+}
+
+.small_img {
+    height: 283px;
+    width: 415px;
+    border-radius: 0px;
+    padding-bottom: 131px;
+}
+
+/* page 3 */
+.page3 {
+    width: 100%;
+    padding-bottom: 139px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header3_right {
+    padding-left: 108px;
+}
+
+.title3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #102746;
+}
+.paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #102746;
+}
+
+.prefecture {
+    text-align: left;
+}
+/* Page 4 */
+.page4 {
+    width: 100%;
+}
+
+.flexie {
+    display: flex;
+    flex-direction: column;
+}
+.post-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 58px;
+}
+
+.post-size {
+    height: 377px;
+    width: 386px;
+    padding-bottom: 45px;
+}
+.see_more_btn {
+    background: #006DFE;
+    border: none;
+    height: 42px;
+    width: 118px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-top: 31px;
+}
