@@ -194,6 +194,7 @@ section {
 /* Page 4 */
 .page4 {
     width: 100%;
+    padding-bottom: 144px;
 }
 
 .flexie {
@@ -223,4 +224,21 @@ section {
     line-height: 19px;
     color: #FFFFFF;
     margin-top: 31px;
+}
+
+/* Page 5 Video */
+
+
+/* Page 6 Footer */
+.page6 {
+    background: #0E1D28;
+    height: 370px;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
