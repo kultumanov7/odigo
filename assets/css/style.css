@@ -194,7 +194,6 @@ section {
 /* Page 4 */
 .page4 {
     width: 100%;
-    padding-bottom: 144px;
 }
 
 .flexie {
@@ -227,18 +226,43 @@ section {
 }
 
 /* Page 5 Video */
-
-
 /* Page 6 Footer */
-.page6 {
+
+.page6
+{
     background: #0E1D28;
+    color: white;
     height: 370px;
-    width: 100%;
+    width: 100%
+}
+
+.footer_list {
+    text-decoration: none;
+    list-style: none;
 }
 
 .footer {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+}
+
+.left_half {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_logo {
+    height: 64px;
+    width: 170px;
+    padding: 119px auto 197px 194px;
+}
+
+/* Unfinished */
+.listed_things {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
 }
