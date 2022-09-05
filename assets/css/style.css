@@ -159,6 +159,8 @@ section {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    position: relative;
+    right: 18px;
 }
 .container {
     display: flex;
@@ -167,15 +169,13 @@ section {
 }
 
 .big_img {
-    height: 354px;
-    width: 619px;
-    border-radius: 0px;
+    height: 373px;
+    width: 650px;
 }
 
 .small_img {
-    height: 283px;
-    width: 415px;
-    border-radius: 0px;
+    height: 296px;
+    width: 433px;
     padding-bottom: 131px;
 }
 
@@ -225,7 +225,7 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 58px;
+    gap: 52px;
 }
 
 .post-size {
