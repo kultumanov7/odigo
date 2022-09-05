@@ -120,11 +120,25 @@ section {
     line-height: 42px;
     color: #102746;
     border-bottom: 3px solid #006DFE;
+    padding-bottom: 7px;
+    position: relative;
+}
+
+.title2:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 201px;
+    right: 0;
+    border-bottom: 3px solid white;
+    padding-bottom: 7px;
 }
 
 .header2_right {
-    padding-right: 88px;
-    align-items: flex-end;
+    padding-right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .view_all {
@@ -144,11 +158,12 @@ section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: flex-start;
 }
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .big_img {
@@ -237,6 +252,27 @@ section {
     justify-content: flex-start;
     padding-bottom: 54px;
 }
+
+.title4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    color: #102746;
+    border-bottom: 3px solid #006DFE;
+    padding-bottom: 7px;
+    position: relative;
+}
+
+.title4:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 113px;
+    right: 0;
+    border-bottom: 3px solid white;
+    padding-bottom: 7px;
+}
 /* Page 5 Video */
 /* Page 6 Footer */
 
@@ -269,6 +305,7 @@ section {
 .footer_logo {
     height: 64px;
     width: 170px;
+    padding-bottom: 40px;
 }
 /* Unfinished */
 .listed_things {
