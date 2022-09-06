@@ -276,6 +276,11 @@ section {
     padding-bottom: 7px;
 }
 /* Page 5 Video */
+.video_class {
+    margin-top: 54px;
+    background-color: #0E1D28;
+}
+
 /* Page 6 Footer */
 
 .page6
@@ -289,19 +294,24 @@ section {
 .footer_list {
     display: flex;
     flex-direction: column;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
 
 .footer {
     display: grid;
     grid-template-columns: 30% 1fr;
-    padding-top: 118px;
+    padding-top: 119px;
 }
 
 .left_half {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .footer_logo {
