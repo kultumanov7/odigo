@@ -2,7 +2,7 @@
 
 /* Page 1 */
 .page1 {
-    background-image: url('/assets/img/page1_background.png');
+    background-image: url('../img/page1_background.png');
     background-size: cover;
     height: 962px;
     color: white;
